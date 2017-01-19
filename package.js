@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:login',
-  version: '0.0.3',
+  version: '0.2.0',
   // Brief, one-line summary of the package.
   summary: 'TEST, DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -23,6 +23,9 @@ Package.onUse(function(api) {
       'promise',
       'templating',
       'less',
+      'check',
+      'random',
+      'email',
     ]);
     // 3rd party
     api.use([
