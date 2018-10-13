@@ -1,1 +1,1 @@
-## TEST, DO NOT USE
+Package is no longer maintaned.
